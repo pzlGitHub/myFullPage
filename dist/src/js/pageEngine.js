@@ -53,7 +53,7 @@ var pageEngine = {
         var self = this;
         this.bindEvent();
         this.$W.myFullPage({
-            backgroundImageArray : ['E:/web/yemian/fullPage/src/img/1.jpg', 'E:/web/yemian/fullPage/src/img/2.jpg', 'E:/web/yemian/fullPage/src/img/3.jpg', 'E:/web/yemian/fullPage/src/img/4.jpg'],        
+            backgroundImageArray : ['../img/1.jpg', '../img/2.jpg', '../img/3.jpg', '../img/4.jpg'],        
             colorsArray: this.colorsArray,
             onLeave : function (index) {
                 self.$W.find('.section').eq(index).trigger('_leave');
